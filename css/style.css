@@ -208,6 +208,7 @@ body {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px;
   color: #615978;
+  overflow-x: hidden;
 }
 body.dark-mode {
   background: #222;
@@ -233,9 +234,7 @@ li {
   padding-top: 120px;
   padding-bottom: 60px;
 }
-.section-block .row > div {
-  margin-bottom: 60px;
-}
+
 /* Typography */
 h1,
 h2,
@@ -1457,16 +1456,7 @@ h6 {
   font-size: 36px;
   margin-bottom: 48px;
 }
-.contact-section .map-wrapper {
-  min-height: 396px;
-  background: #f9f9f9;
-  margin-right: 90px;
-  border-radius: 10px;
-}
-.contact-section form > div {
-  margin-bottom: 0 !important;
-  margin-top: 0 !important;
-}
+
 .contact-section input,
 .contact-section textarea {
   border-radius: 4px !important;
@@ -1953,9 +1943,6 @@ h6 {
   }
   .contact-section .icon-box {
     flex-shrink: 0;
-  }
-  .contact-section .map-wrapper {
-    margin-right: 0;
   }
   .site-footer .social-block li {
     margin-right: 15px;
